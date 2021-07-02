@@ -5,21 +5,8 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 14212577893
-  numberOfFiles: 350
-  numberOfSubjects: 39
-  schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Human
-    schemaKey: SpeciesType
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: 20210630_AIBS_human (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
 description: Allen Institute U01 Lein June 2021 Human PatchSeq intracellular electrophysiology
   data
