@@ -28,7 +28,8 @@ description: Allen Institute U01 Lein June 2021 Human PatchSeq intracellular ele
   data
 id: DANDI:000109/draft
 identifier: DANDI:000109
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000109/versions/draft/assets/
 name: 20210630_AIBS_human
 schemaKey: Dandiset
 schemaVersion: 0.4.4
