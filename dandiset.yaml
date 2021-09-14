@@ -27,7 +27,7 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: Allen Institute for Brian Science (2021) Patch-seq recordings from human
-  cortex (June 2021) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
+  cortex (June 2021) (Version 0.210914.1904) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000109/0.210914.1904
 contributor:
 - affiliation:
   - identifier: https://ror.org/00dcv1019
@@ -68,10 +68,12 @@ contributor:
   schemaKey: Organization
   url: https://www.nimh.nih.gov/index.shtml
 dateCreated: '2021-06-08T00:45:52.383457+00:00'
+datePublished: '2021-09-14T19:04:09.264622+00:00'
 description: Whole-cell Patch-seq recordings from neurons of the human neocortex from
   the Allen Institute for Brain Science, released in June 2021.
+doi: 10.48324/dandi.000109/0.210914.1904
 ethicsApproval: []
-id: DANDI:000109/draft
+id: DANDI:000109/0.210914.1904
 identifier: DANDI:000109
 keywords:
 - Patch-seq
@@ -80,15 +82,27 @@ keywords:
 license:
 - spdx:CC-BY-NC-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000109/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000109/0.210914.1904/assets.yaml
 name: Patch-seq recordings from human cortex (June 2021)
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+publishedBy:
+  endDate: '2021-09-14T19:04:09.264622+00:00'
+  id: urn:uuid:f106bd2f-3d1b-49ac-8334-519beb1c51da
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-09-14T19:04:09.264622+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:edc4b5d3-c1a0-411a-b9a3-11c414e2d11a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000109/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000109/0.210914.1904
+version: 0.210914.1904
 wasGeneratedBy: []
