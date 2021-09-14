@@ -2,6 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000109
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001950
+  name: neocortex
+  schemaKey: Anatomy
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -23,15 +27,64 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: 20210630_AIBS_human (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
-description: Allen Institute U01 Lein June 2021 Human PatchSeq intracellular electrophysiology
-  data
+citation: Allen Institute for Brian Science (2021) Patch-seq recordings from human
+  cortex (June 2021) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
+contributor:
+- awardNumber: U01MH114812
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/index.shtml
+- contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Organization
+  url: alleninstitute.org
+- affiliation: []
+  email: tom.chartrand@alleninstitute.org
+  identifier: 0000-0002-7093-8681
+  includeInCitation: false
+  name: Chartrand, Thomas
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: false
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+dateCreated: '2021-06-08T00:45:52.383457+00:00'
+description: Whole-cell Patch-seq recordings from neurons of the human neocortex from
+  the Allen Institute for Brain Science, released in June 2021.
+ethicsApproval: []
 id: DANDI:000109/draft
 identifier: DANDI:000109
+keywords:
+- Patch-seq
+- human
+- neocortex
+license:
+- spdx:CC-BY-NC-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000109/versions/draft/assets/
-name: 20210630_AIBS_human
+name: Patch-seq recordings from human cortex (June 2021)
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+relatedResource: []
+repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000109/draft
 version: draft
+wasGeneratedBy: []
