@@ -5,7 +5,6 @@
 about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0001950
   name: neocortex
-  schemaKey: Anatomy
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -30,6 +29,35 @@ assetsSummary:
 citation: Allen Institute for Brian Science (2021) Patch-seq recordings from human
   cortex (June 2021) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brian Science
+    schemaKey: Affiliation
+  email: tom.chartrand@alleninstitute.org
+  identifier: 0000-0002-7093-8681
+  includeInCitation: false
+  name: Chartrand, Thomas
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brian Science
+    schemaKey: Affiliation
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: false
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  roleName: []
+  schemaKey: Organization
+  url: https://alleninstitute.org
 - awardNumber: U01MH114812
   contactPoint: []
   identifier: https://ror.org/04xeg9z08
@@ -39,30 +67,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: https://www.nimh.nih.gov/index.shtml
-- contactPoint: []
-  identifier: https://ror.org/00dcv1019
-  includeInCitation: true
-  name: Allen Institute for Brian Science
-  roleName:
-  - dcite:DataCollector
-  schemaKey: Organization
-  url: alleninstitute.org
-- affiliation: []
-  email: tom.chartrand@alleninstitute.org
-  identifier: 0000-0002-7093-8681
-  includeInCitation: false
-  name: Chartrand, Thomas
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
-- affiliation: []
-  email: briank@alleninstitute.org
-  identifier: 0000-0003-3136-8097
-  includeInCitation: false
-  name: Kalmbach, Brian
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
 dateCreated: '2021-06-08T00:45:52.383457+00:00'
 description: Whole-cell Patch-seq recordings from neurons of the human neocortex from
   the Allen Institute for Brain Science, released in June 2021.
