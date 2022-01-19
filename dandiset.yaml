@@ -28,7 +28,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: Allen Institute for Brian Science (2021) Patch-seq recordings from human
+citation: Allen Institute for Brian Science (2022) Patch-seq recordings from human
   cortex (June 2021) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000109/draft
 contributor:
 - affiliation:
@@ -80,7 +80,7 @@ keywords:
 - human
 - neocortex
 license:
-- spdx:CC-BY-NC-4.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000109/versions/draft/assets/
 name: Patch-seq recordings from human cortex (June 2021)
